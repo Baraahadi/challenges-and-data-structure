@@ -1,7 +1,19 @@
-# Whiteboard Images
+# 🧪 Whiteboard Challenge Images
 
-## Challenge A: Array Reversal
-![Array Reversal Code Image](./codeChallenges-images/reversedArray-img.png) 
+A visual documentation of algorithmic whiteboard challenges with annotated diagrams and concise explanations.
 
-## Challenge B: Most Frequent Number 
-![Most Frequent Number](./codeChallenges-images/frequentElement-img.png)
+---
+
+## 🔁 Challenge A: Array Reversal
+
+> **Description**: Reverse the order of elements in a given array — transforming it from right to left, in-place.
+
+![🧠 Array Reversal – Code Logic](./codeChallenges-images/reversedArray-img.png)
+
+---
+
+## 🔢 Challenge B: Most Frequent Number
+
+> **Description**: Identify the most frequently occurring number in a given array using efficient iteration and counting.
+
+![📊 Most Frequent Number – Solution Sketch](./codeChallenges-images/mostFrequentNumber.png)

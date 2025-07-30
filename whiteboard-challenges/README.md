@@ -20,7 +20,7 @@ A visual documentation of algorithmic whiteboard challenges with annotated diagr
 
 ---
 
-## 🔢 Challenge C: Minimum Value
+## 🔽 Challenge C: Find Minimum Value in Array
 
 > **Description**: Identify the minimum number in a given array using simple if statement.
 

@@ -21,7 +21,7 @@ A whiteboard-style diagram illustrating how to find the most frequent number in 
 ---
 
 
-## 🔽 Find Minimum Value in Array
+## 🔽 Challenge C: Find Minimum Value in Array
 
 A whiteboard-style diagram illustrating how to find the minimum number in an array.
 

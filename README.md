@@ -20,4 +20,14 @@ A whiteboard-style diagram illustrating how to find the most frequent number in 
 
 ---
 
+
+## 🔽 Find Minimum Value in Array
+
+A whiteboard-style diagram illustrating how to find the minimum number in an array.
+
+![📊 Minimum Value](./whiteboard-challenges//codeChallenges-images/minimunNumber-img.PNG)
+
+---
+
 🔗 [Back to Challenge 1 Overview](./whiteboard-challenges/README.md)
+

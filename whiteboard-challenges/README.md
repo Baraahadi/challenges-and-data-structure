@@ -17,3 +17,11 @@ A visual documentation of algorithmic whiteboard challenges with annotated diagr
 > **Description**: Identify the most frequently occurring number in a given array using efficient iteration and counting.
 
 ![📊 Most Frequent Number – Solution Sketch](./codeChallenges-images/mostFrequentNumber.png)
+
+---
+
+## 🔢 Challenge C: Minimum Value
+
+> **Description**: Identify the minimum number in a given array using simple if statement.
+
+![📊 Minimum value – Solution Sketch](./codeChallenges-images/minimunNumber-img.PNG)

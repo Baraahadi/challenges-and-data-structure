@@ -25,3 +25,11 @@ A visual documentation of algorithmic whiteboard challenges with annotated diagr
 > **Description**: Identify the minimum number in a given array using simple if statement.
 
 ![📊 Minimum value – Solution Sketch](./codeChallenges-images/minimunNumber-img.PNG)
+
+---
+
+## 🔁 Challenge D: Characters Reversal
+
+> **Description**: Reverse the order of elements in a given string — transforming it from right to left, in-place.
+
+![🧠 Characters Reversal – Code Logic](./codeChallenges-images/reversedCharacter-img.PNG)

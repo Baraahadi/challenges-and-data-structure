@@ -33,6 +33,6 @@ A whiteboard-style diagram illustrating how to find the minimum number in an arr
 
 > **Description**: Reverse the order of elements in a given string — transforming it from right to left, in-place.
 
-🔗[Characters Reversal](../reverse-characters/README.md)
+🔗[Characters Reversal](./reverse-characters/README.md)
 🔗 [Back to Challenge 1 Overview](./whiteboard-challenges/README.md)
 

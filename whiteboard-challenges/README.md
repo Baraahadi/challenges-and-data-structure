@@ -33,3 +33,11 @@ A visual documentation of algorithmic whiteboard challenges with annotated diagr
 > **Description**: Reverse the order of elements in a given string — transforming it from right to left, in-place.
 
 ![🧠 Characters Reversal – Code Logic](./codeChallenges-images/reversedCharacter-img.PNG)
+
+---
+
+## 🛠 Challenge E: Remove Middle Value from an Array (No Built-in Methods)
+> **Description**: Remove middlevalue from an array without using built-in function by calculating the middle value , loop through array to skip the middle value , then adding new item to the new array that is created manually.
+
+![🧠 Removing Middle Value from an array – Code Logic](./codeChallenges-images/removeMiddleValue-img.PNG)
+

@@ -93,11 +93,11 @@ Here are some special scenarios to consider when working with a Linked List:
 ## 👀 Visual
 [╔════════════════╗
 ║ 🖥️ Test Code ║
-╚════════════════╝ ](whiteboard.png.PNG)
+╚════════════════╝ ](./docs/linkedlist-imp-tests.PNG)
 >
 [╔══════════════╗
 ║ 🖥️ Console Log║
-╚══════════════╝ ](console-output.png.PNG)
+╚══════════════╝ ](./docs/console-linkedlist-output.PNG)
  >
 ---
 

@@ -62,11 +62,11 @@ Here are some special scenarios to consider when working with Reverse Linked Lis
 ## 👀 Visual
 [╔════════════════╗
 ║ 🖥️ Test Code ║
-╚════════════════╝ ](./docs/reverse-test.PNG)
+╚════════════════╝ ](../docs/reverse-test.PNG)
 >
 [╔══════════════╗
 ║ 🖥️ Console Log║
-╚══════════════╝ ](./docs/reverse-console.PNG)
+╚══════════════╝ ](../docs/reverse-console.PNG)
  >
 
 ---

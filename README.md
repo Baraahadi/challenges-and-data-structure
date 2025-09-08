@@ -55,4 +55,10 @@ A whiteboard-style diagram illustrating how to find the minimum number in an arr
 🔗[Linked List Implementation](../challenges-and-data-structure/dataStructure/linked-list/linkedList-implementation/reverse/README.md)
 
 --- 
+## 🛠 Challenge 8: Sort and Merge Linked List
+> **Description**: sort linked list then merge two linked lists into new linked list.
+🔗[Sort & Merge Linked List Implementation](../challenges-and-data-structure/dataStructure/linked-list/linkedList-implementation/mergeSorted/README.md)
+
+--- 
+
 🔗 [Back to Challenge 1 Overview](./whiteboard-challenges/README.md)s

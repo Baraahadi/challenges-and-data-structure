@@ -110,18 +110,59 @@ class LinkedList {
 
     this.head = prev;
   }
+
+  //Function 07 sorted linked list
+  sortlist() {
+  if (!this.head || !this.head.next) 
+    {
+      console.log("already sorted");
+      return;
+      
+    }
+
+  let swapped;
+  do {
+    swapped = false;
+    let current = this.head;
+
+    while (current && current.next) {
+      if (current.data > current.next.data) {
+        // swap data
+        let temp = current.data;
+        current.data = current.next.data;
+        current.next.data = temp;
+        swapped = true;
+      }
+      current = current.next;
+    }
+  } while (swapped);
+}
+// Function 07 merge two linked list
+static mergeLists(firstLinkedList, secondLinkedList) {
+  const test = new Node(0);
+  let tail = test;
+
+  let current1 = firstLinkedList.head;
+  let current2 = secondLinkedList.head;
+
+  while (current1 && current2) {
+    if (current1.data <= current2.data) {
+      tail.next = current1;
+      current1 = current1.next;
+    } else {
+      tail.next = current2;
+      current2 = current2.next;
+    }
+    tail = tail.next;
+  }
+
+  if (current1) tail.next = current1;
+  if (current2) tail.next = current2;
+
+  const mergedList = new LinkedList();
+  mergedList.head = test.next;
+  return mergedList;
+}
 }
 
 module.exports = LinkedList;
-// const newNode = new LinkedList();
-// newNode.addNode(5);
-// newNode.addNode(10);
-// newNode.addNode(20);
-// newNode.addNode(30);
-// newNode.printLinkedlist();
-
-// newNode.reverse();
-// newNode.removeNode(10);
-// newNode.includesData(20);
-// newNode.insertAt(2, 50);
-// newNode.printLinkedlist();

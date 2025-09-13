@@ -137,7 +137,8 @@ class LinkedList {
     }
   } while (swapped);
 }
-// Function 07 merge two linked list
+
+// Function 08 merge two linked list
 static mergeLists(firstLinkedList, secondLinkedList) {
   const test = new Node(0);
   let tail = test;
@@ -163,6 +164,38 @@ static mergeLists(firstLinkedList, secondLinkedList) {
   mergedList.head = test.next;
   return mergedList;
 }
+
+// Function 08 merge two linked list
+ // Rotate the list left by k places
+  rotateLeft(k) {
+    if (!this.head || k === 0) return;
+
+    // Step 1: Find length
+    let length = 1;
+    let tail = this.head;
+    while (tail.next) {
+      tail = tail.next;
+      length++;
+    }
+
+    // Handle k greater than length
+    k = k % length;
+    if (k === 0) return;
+
+    // Step 2: Move to kth node
+    let current = this.head;
+    let count = 1;
+    while (count < k && current) {
+      current = current.next;
+      count++;
+    }
+
+    // Step 3: Update head and tail
+    let newHead = current.next;
+    current.next = null;  // Break link
+    tail.next = this.head; // Connect end to old head
+    this.head = newHead;  // Update head
+  }
 }
 
 module.exports = LinkedList;

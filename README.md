@@ -61,4 +61,10 @@ A whiteboard-style diagram illustrating how to find the minimum number in an arr
 
 --- 
 
+## 🛠 Challenge 9: Rotate Linked List
+> **Description**: Rotate the linked list to the left by k places.
+🔗[Rotate Linked List Implementation](../challenges-and-data-structure/dataStructure/linked-list/linkedList-implementation/rotate-linkedList/README.md)
+
+---
+
 🔗 [Back to Challenge 1 Overview](./whiteboard-challenges/README.md)s

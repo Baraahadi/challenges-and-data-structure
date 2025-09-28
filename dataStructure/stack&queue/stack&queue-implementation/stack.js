@@ -1,4 +1,4 @@
-class Stack {
+class DefaultStack {
   constructor() {
     this.data = [];
     this.count = 0;
@@ -52,4 +52,4 @@ class Stack {
 }
 // const stack= new Stack();
 
-module.exports = Stack;
+module.exports = DefaultStack;
